@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    background:#d9d9df;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-family:Arial, sans-serif;
+}
+
+.container{
+    width:92%;
+    height:90vh;
+
+    display:flex;
+
+    border-radius:35px;
+
+    overflow:hidden;
+
+    box-shadow:0 15px 40px rgba(0,0,0,0.15);
+}
+
+.left{
+    width:58%;
+    background:#ffd400;
+
+    padding:80px;
+
+    position:relative;
+}
+
+.right{
+    width:42%;
+    background:#f4e9bf;
+
+    position:relative;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo{
+    width:140px;
+}
+
+.small-text{
+    margin-top:100px;
+
+    letter-spacing:8px;
+
+    font-size:18px;
+
+    font-weight:600;
+}
+
+h1{
+    font-size:120px;
+
+    margin-top:20px;
+
+    font-weight:900;
+
+    line-height:1;
+}
+
+.description{
+    width:500px;
+
+    margin-top:30px;
+
+    font-size:24px;
+
+    line-height:1.8;
+
+    color:#222;
+}
+
+.number{
+    margin-top:50px;
+
+    font-size:28px;
+
+    font-weight:bold;
+}
+
+.line{
+    width:60px;
+    height:4px;
+
+    background:black;
+
+    display:inline-block;
+
+    margin-right:20px;
+
+    vertical-align:middle;
+}
+
+.pikachu{
+    position:absolute;
+
+    width:850px;
+
+    left:-250px;
+
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.menu{
+    position:absolute;
+
+    top:50px;
+    right:50px;
+
+    font-size:50px;
+
+    cursor:pointer;
+}

@@ -1,0 +1,165 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+} */
+/* h1{
+    color: red;
+}
+
+#one{
+    color: blue;
+    background-color: blue;
+}
+
+#three{
+    background-color: yellow;
+}
+
+.t{
+    color: green;
+} */
+
+/* #box1{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+    margin: 50px;
+    padding: 30px;
+}
+#inner
+    {
+    height: 100px;
+    width: 100px;
+    background-color: royalblue;
+    margin-left: 10px;
+    
+}
+
+#box2 {
+    height: 300px;
+    width: 300px;
+    background-color: royalblue;
+    
+}
+button{
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: cadetblue;
+    border:10px solid rgb(230, 227, 227);
+    border-radius: 10px;
+    transition: color ease 0.5s;
+}
+
+button:active{
+    background-color: black;
+    color: white;
+} */
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    border: 10px solid rgb(230, 227, 227);
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: royalblue;
+    
+} */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    
+} */
+/* body{
+    perspective: 1000px;
+}
+
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: rotateY(90deg);
+        
+} */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#parent{
+    height: 400px;
+    width: 400px;
+    background-color: crimson;
+    position: relative;
+    left: 20%;
+    
+}
+
+#child{
+    height: 50%;
+    width: 50%;
+    background-color: royalblue;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.page{
+    height: 100%;
+    width: 100%;
+    background-color: royalblue;
+}
+
+
