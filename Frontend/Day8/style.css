@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+}
+
+h1{
+    font-size: 200px;
+    /* white-space: nowrap; */
+}
+
+#parent{
+    height: 100px;
+    width: 100px;
+    background-color: royalblue;
+}
+#child{
+    height: 50%;
+    width: 50%;
+    background-color: crimson;
+}
+
+h2{
+    background-color: yellow;
+    /* width:fit-content; this is take space according to content */
+    /* transform: rotate(5deg); */
+}
+a{
+    background-color: green;
+}
+span{
+    background-color: aquamarine;
+}
+#box{
+    height: 100pxpx;
+    background-color: bisque;
+    display: inline-block;
+}
