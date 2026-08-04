@@ -1,53 +1,125 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'helvetica neue';
-}
-html,
-body {
-    height: 100%;
-    width: 100%;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 body{
-    background: #efefef;
-    font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
-    color:#4b0008 ;
+    background:#f6f3ef;
+    font-family:"Inter",sans-serif;
+}
+span{
+    color: #7a2a2a58;
+}
+.container{
+    width:100%;
+    min-height:100vh;
+    position:relative;
+    padding:40px 80px;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
 
-/* Top */
-.top-bar{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-.small-text{
-    text-align: right;
-    font-size: 12px;
-    font-weight: 500;
-    color: #8b6b6b;
-    text-decoration: uppercase;
-    line-height: 1.2;
+.logo{
+    position: absolute;
+    left: 30px;
+    font-size:60px;
+    color:#b11919;
+    font-weight:bold;
 }
 
-/* HEro */
+.menu{
+    position: absolute;
+    font-size:14px;
+    letter-spacing:2px;
+    color:#7a2a2a;
+    left: 90%;
+}
+.left-side{
+    position:absolute;
+    left:30px;
+    top:450px;
+}
 
+.left-side h4{
+    font-size:20px;
+    line-height:22px;
+    color:#7a2a2a;
+}
 .hero{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-.hero-content{
-    width: 70%;
-}
-.light{
-    color: #b9a7a7;
+    width:70%;
+    margin-left:380px;
+    margin-top:40px;
+
+    display:flex;
+    flex-direction:column;
 }
 
-.blob{
-    display: inline-block;
-    width: 90px;
+.content{
+    width:520px;
+}
+
+.content h1{
+    font-size:40px;
+    font-weight:80px;
+    line-height:0.95;
+    color:#7a2a2a;
+    letter-spacing:2px;
+}
+.content p{
+    width:280px;
+    margin-top:70px;
+    margin-left:100px;
+    color:#7a2a2a;
+    font-size:14px;
+    line-height:22px;
+}
+.content span{
+    margin-left: 100px;
+}
+.sp{
+    position: absolute;
+    top: 210px;
+    color:#7a2a2a ;
+}
+.gallery{
+    display:flex;
+    gap:25px;
+    margin-top:40px;
+}
+
+.gallery img{
+    width:220px;
+    height:290px;
+    margin-left:100px;
+    gap:0;
+    object-fit:cover;
+    border-radius:18px;
+}
+
+
+.bottom{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-top:100px;
+}
+
+.bottom h2{
+    font-size:70px;
+    font-weight:300;
+    color:#7d1b1b;
+    line-height:1;
+    text-align:center;
+}
+
+.bottom p{
+    width:450px;
+    text-align:center;
+    margin-top:20px;
+    color:#7d1b1b;
 }
