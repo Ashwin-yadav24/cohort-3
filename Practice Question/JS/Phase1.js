@@ -129,9 +129,7 @@
 
 // console.log(`My name is ${name} and I am ${age} years old`);
 
-
-
-
+// Mini biodata program using variables and template literals
 // Numbers & Math//
 // var a = 4.7;
 // var r = Math.round(a);
@@ -228,13 +226,234 @@
              
 // }
 
-var user="Ashwin"
-var pass=123
+// var user="Ashwin"
+// var pass=123
 
-if(user==user && pass==pass){
-    console.log("Admin");
+// if(user==user && pass==pass){
+//     console.log("Admin");
     
-}else{
-    console.log("Not allowed");
+// }else{
+//     console.log("Not allowed");
     
+// }
+
+
+//////////////////////////////// Truthy & Falsy ///////////////////////////////
+// let str = [];
+
+// if (str) {
+//     console.log("Truthy");
+// } else {
+//     console.log("Falsy");
+// }
+
+// var val="Hello"
+// if(val){
+//     console.log("Valid");
+    
+// }else{
+//     console.log("Not valid");
+    
+// }
+
+/////////////////////// Ternary Operator /////////////////////
+// var b=20
+// var res=(b%2===0)? "Even" : "Odd"
+// console.log(res);
+
+
+// var age=20
+// var res=(age>18)? "Valid" :" No valid"
+// console.log(res);
+
+// var a =69
+// var b = 79
+// var res=(a>b)?a:b
+// console.log(res);
+
+
+
+/////////////////////////////////////////Mixed Practice Questions////////////////////
+
+
+// var b=20
+// var h=30
+// var aot=1/2*(b*h)
+// console.log(aot);
+
+// var p=1000
+// var r=5
+// var t=2
+// var si= (p*r*t)/100
+// console.log(si);
+
+// var units = 250;
+// var bill = 0;
+
+// if (units <= 100) {
+//     bill = units * 5;
+// } else if (units <= 200) {
+//     bill = (100 * 5) + ((units - 100) * 7);
+// } else if (units <= 300) {
+//     bill = (100 * 5) + (100 * 7) + ((units - 200) * 10);
+// } else {
+//     bill = (100 * 5) + (100 * 7) + (100 * 10) + ((units - 300) * 12);
+// }
+
+// console.log(`Electricity bill for ${units} units is Rs. ${bill}`);
+
+// var firstname="ashwin"
+// var byear=2006
+// var username=firstname+byear
+// console.log(username);
+
+
+// var a="Ashwin"
+// if(a.startsWith('A')){
+//     console.log("s Start with A");
+    
+// }else{
+//     console.log('S do not start with A');
+    
+// }
+
+// var sentence = "I am ashwin yadav"
+// var count = sentence.replace(/\s/g,"").length
+// console.log(count);
+
+
+// var a =50
+// if(a%10==0){
+//     console.log('Multiple of 10');
+    
+// }else{
+//     console.log("Not multiple of 10");
+    
+// }
+
+// let price = 1000;
+// let discount = 20; 
+
+// let discountAmount = (price * discount) / 100;
+// let finalPrice = price - discountAmount;
+
+// console.log("Original Price:", price);
+// console.log("Discount:", discount + "%");
+// console.log("Final Price:", finalPrice);
+
+// let inStock = true;
+
+// if (inStock) {
+//     console.log("Product is in stock.");
+// } else {
+//     console.log("Product is out of stock.");
+// }
+
+// /////////////////////////////Challenge Questions for Beginners/////////////////
+
+// let otp=Math.floor(1000+Math.random()*9000)
+// console.log(`Your OTP: ${otp}`);
+
+// Math.random() generates a random decimal number between 0 and 1.
+// Math.random() * 9000 generates a number between 0 and 8999.
+// Adding 1000 shifts the range to 1000–9999.
+// Math.floor() removes the decimal part.
+
+
+// var c="cat"
+// var cp=c[2]+c[1]+c[0]
+// console.log(cp);
+
+
+// var copy=""
+// for(var i=c.length-1;i>=0;i--){
+//     copy=copy+c[i]
+// }
+// console.log(copy);
+
+// var name="ashwin kumar yadav"
+// var upper=name.toUpperCase()
+// console.log(upper);
+
+// let str1 = "Ashwin";
+// let str2 = "ashwin";
+
+// if (str1.toLowerCase() === str2.toLowerCase()) {
+//     console.log("Strings are equal");
+// } else {
+//     console.log("Strings are not equal");
+// }
+
+// let num = 85;
+
+// if (num >= 10 && num <= 99) {
+//     console.log("It is a 2-digit number.");
+// } else if (num >= 100 && num <= 999) {
+//     console.log("It is a 3-digit number.");
+// } else {
+//     console.log("It is neither a 2-digit nor a 3-digit number.");
+// }
+
+
+// let light = "red";
+
+// switch (light) {
+//     case "red":
+//         console.log("Stop");
+//         break;
+
+//     case "yellow":
+//         console.log("Get Ready");
+//         break;
+
+//     case "green":
+//         console.log("Go");
+//         break;
+
+//     default:
+//         console.log("Invalid Traffic Light");
+// }
+
+// let name = "Ashwin";
+
+// let math = 85;
+// let science = 78;
+// let english = 92;
+
+// let total = math + science + english;
+// let percentage = total / 3;
+// let grade;
+
+// if (percentage >= 90) {
+//     grade = "A+";
+// } else if (percentage >= 80) {
+//     grade = "A";
+// } else if (percentage >= 70) {
+//     grade = "B";
+// } else if (percentage >= 60) {
+//     grade = "C";
+// } else if (percentage >= 40) {
+//     grade = "D";
+// } else {
+//     grade = "Fail";
+// }
+
+// console.log("------ Marksheet ------");
+// console.log("Name:", name);
+// console.log("Math:", math);
+// console.log("Science:", science);
+// console.log("English:", english);
+// console.log("Total Marks:", total);
+// console.log("Percentage:", percentage.toFixed(2) + "%");
+// console.log("Grade:", grade);\
+
+let balance = 5000;
+let withdraw = 2000;
+
+if (withdraw <= balance) {
+    balance = balance - withdraw;
+    console.log("Withdrawal Successful!");
+    console.log("Remaining Balance: ₹" + balance);
+} else {
+    console.log("Insufficient Balance!");
 }
