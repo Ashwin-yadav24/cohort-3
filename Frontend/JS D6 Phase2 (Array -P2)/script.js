@@ -17,7 +17,10 @@
 // var sum=0
 // ary.forEach(function(e,i){
 //     sum=sum+e.length
-//     console.log(e,i);  
+//     console.log(e,i); 
+//     console.log(sum);
+     
+
 // })
 
 
@@ -88,16 +91,15 @@
 
 
 /////////////////////////. REDUCE /////////////////
-// var arr = [10,20,30,40]
-// var max = arr.reduce(function(acc,val){
-//     // return acc+val;
-//     if(val>acc){
-//         return val
-//     }
-//     return acc
-// })
-// console.log(sum);
-
+var arr = [10,20,30,40]
+var max = arr.reduce(function(acc,val){
+    // return acc+val;
+    if(val>acc){
+        return val
+    }
+    return acc
+})
+console.log(max);
 
 // var arr = [10,20,30,40]
 
@@ -106,6 +108,7 @@
     
 // },0)
 // console.log(brr);
+
 
 // var arr = [32,98,67,350,20,12]
 
@@ -149,10 +152,10 @@
 // console.log(b);
 
 
-var arr = [10,20,30]
-var arr2= arr
-arr2.push(99)
-console.log(arr2);
-arr2[0]=1
-console.log(arr);
-console.log(arr2);
+// var arr = [10,20,30]
+// var arr2= arr
+// arr2.push(99)
+// console.log(arr2);
+// arr2[0]=1
+// console.log(arr);
+// console.log(arr2);
