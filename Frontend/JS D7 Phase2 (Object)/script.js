@@ -36,7 +36,7 @@
 // console.log(user);
 
 
-// for accessing key of object
+// // for accessing key of object
 // console.log(Object.keys(user));
 // console.log(Object.values(user));
 // console.log(Object.entries(user));
@@ -111,7 +111,7 @@
 //     },
 //     greet:function(a){
 //         console.log("Hello I am Chhithi Robot.",a);
-        
+
 //     }
 // }
 // obj.greet('chhithi')
@@ -138,9 +138,9 @@
 // console.log(maths.mul(20,30));
 
 // var myage = 40
-// var obj={
-//     name:'Ashwin',
-//     age:myage>25?myage:33
+// var obj = {
+//     name: 'Ashwin',
+//     age: myage > 25 ? myage : 33
 // }
 // console.log(obj);
 
@@ -330,4 +330,3 @@ console.log(obj3);
 obj3.college.name='cu'
 console.log(obj3);
 console.log(obj);
-
