@@ -1,0 +1,114 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+h1{
+    color: crimson;
+    font-size: 50px;
+}
+
+h1::after{
+    content: " Ashwin";
+    font-size: 25px;
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+h1::before{
+    content: "Welcome, " ;
+    font-size: 35px;
+    color: bisque;
+    font-family:fantasy;
+} */
+
+
+/* ///////////////////////////// CSS Variable //////////////////// */
+/* :root{
+    --king: rgb(255, 17, 0);
+    --queen:rgb(192, 255, 226);
+    --pad-btn:10px 20px;
+}
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+h2 span{
+    color: var(--king);
+}
+.btn1{
+    background-color:var(--king);
+    padding: var(--pad-btn);
+}
+p span{
+    color: lightseagreen;
+}
+
+.sign{
+    background-color: var(--queen);
+    padding: var(--pad-btn);
+}
+.log{
+    background-color: var(--queen);
+    padding: var(--pad-btn);
+} */
+
+
+/* ///////////////////////////////////// Tailwind CSS ///////////////////////// */
+/* tailwind is utility first framework */
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.red{
+    color: rgba(255, 0, 0, 0.753);
+}
+.blue{
+    color: rgba(0, 0, 255, 0.537);
+}
+.green{
+    color: rgba(0, 128, 0, 0.643);
+}
+.large{
+    font-size: 40px;
+}
+.small{
+    font-size: 20px;
+}
+.flex{
+    display: flex;
+}
+.al-itm{
+    align-items: center;
+} */

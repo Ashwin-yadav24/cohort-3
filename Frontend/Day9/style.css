@@ -1,0 +1,265 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    height: 200px;
+    position: absolute;
+
+    animation-name: dora;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.parent {
+    background-color: crimson;
+    display: flex;
+    overflow: hidden;
+}
+
+.inner {
+    background-color: lightseagreen;
+    display: flex;
+
+    animation-name: anime;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+img:hover {
+    animation-play-state: paused;
+}
+
+h4 {
+    background-color: royalblue;
+    padding: 15px;
+    font-size: 20px;
+}
+
+@keyframes dora {
+    from {
+        left: 0;
+        rotate: 0deg;
+    }
+
+    to {
+        left: 75%;
+        rotate: 360deg;
+    }
+}
+
+@keyframes anime {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+} */
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+}
+h1{
+    color: lightseagreen;
+    background-color: bisque;
+}
+
+@media (max-width:300px){
+    #box{
+        background-color: crimson;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    h1{
+        color: aquamarine;
+        font-weight: 200 ;
+    }
+} */
+/* width - 300px to sirf 300px pe hi chlega */
+/* max-width = 300px ya use se kam width hone pe chlega */
+
+
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+nav{
+     height: 70px;
+     width: 100%;
+     padding: 0px 30px;
+     background-color: rgb(22, 135, 135);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+      
+}
+
+.part2{
+    display: flex;
+    gap: 20PX;
+    
+}
+h4{
+    font-size: 16px;
+}
+h5{
+    font-size: 20px;
+    display: none;
+}
+
+@media(max-width:400px){
+    nav{
+        background-color: royalblue;
+        height: 50px;
+    }
+
+    h5{
+        display: block;
+    }
+    h4{
+        display: none;
+    }
+} */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+h1{
+    font-size: 10vw;
+    text-align: center;
+}
+@media (max-width:400px){
+    h1{
+    font-size: 15vw;
+    text-align: center;
+}
+} */
+
+/* /////////////////////////////// Animations //////////////////////////// */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    position: absolute;
+
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-delay: 1s;
+
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+}
+div:hover{
+    animation-play-state: paused;
+}
+
+@keyframes anime{
+
+    /* from{
+        left: 0;
+        top: 0;
+        rotate: 0;
+        background-color:red;
+        
+    }*/
+
+    /* to{
+        left: 70%; 
+        top: 50%;
+        border-radius: 50%;
+        rotate: 360deg;
+        background-color: blueviolet;
+        
+    } */
+
+    0%{
+        left: 0;
+        top: 0;
+    }
+    25%{
+        left: 75%;
+        top: 0;
+        background-color: green;
+    }
+    50%{
+        left: 75%;
+        top: 50%;
+        background-color: black;
+    }
+    75%{
+       left: 0%;
+        top: 50%;
+        background-color: yellow; 
+    }
+    100%{
+        left: 0%;
+        top: 0%;
+        background-color: pink;
+    }
+
+}
