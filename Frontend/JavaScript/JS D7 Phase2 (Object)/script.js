@@ -20,16 +20,18 @@
 //     isSingle:false,
 //     batch:'Cohort-3.0'
 // }
-// var phone={
-//     model:'iPhone',
-//     color:'red',
-//     price:80000
-// }
+// // var phone={
+// //     model:'iPhone',
+// //     color:'red',
+// //     price:80000
+// // }
 
 // user.city='Siwan' //create
 // user.age=19 //update
 // user.marks=80 //update
 // console.log(user); //read
+// console.log(user2);
+
 
 // delete user.marks
 // delete user.age
@@ -311,22 +313,94 @@
 // console.log(typeof(b));
 ///////////////////////////////////////
 // DEEP COPY ->
-var obj={
-    name:'ashwin',
-    age:20,
-    city:'Siwan',
-    college:{
-        name:'LPU',
-        student:20000,
-    },
-    skills:['html','css','js']
-}
-var str=JSON.stringify(obj)
-console.log(typeof str);
+// var obj={
+//     name:'ashwin',
+//     age:20,
+//     city:'Siwan',
+//     college:{
+//         name:'LPU',
+//         student:20000,
+//     },
+//     skills:['html','css','js']
+// }
+// var str=JSON.stringify(obj)
+// console.log(typeof str);
 
-var obj3=JSON.parse(str)
-console.log(obj3);
+// var obj3=JSON.parse(str)
+// console.log(obj3);
 
-obj3.college.name='cu'
-console.log(obj3);
-console.log(obj);
+// obj3.college.name='cu'
+// console.log(obj3);
+// console.log(obj);
+
+
+
+// let stud1={
+//     name:"Ashwin",
+//     age:29,
+//     // city:"Punjab",
+//     // sem:6
+// };
+
+// let stud2={
+//     // ...stud1,
+//     // city:"Chandigarh",
+//     // sem:7
+//     course:"CSE",
+//     sem:6
+
+// };
+// let stud3={
+//     email:"ashwinyadav1420@gmail.com",
+//     phone:6299835260
+// };
+
+// let stud={
+//     name: stud1.name,
+//     age: stud1.age,
+//     course:stud2.course,
+//     sem:stud2.sem,
+//     email:stud3.email,
+//     phone:stud3.phone,
+//     course:"M.tech"
+
+// }
+// console.log("First ->",stud1);
+// console.log("Second->",stud2);
+// console.log("Third->",stud3);
+
+// console.log("After migrated to another city->",stud);
+
+
+
+
+
+// let stud = (...data)=> {
+//     let name = data[0];
+
+//     let marks = data.slice(1);
+
+//     let total = 0;
+
+//     marks.forEach((mark)=>{
+//         total += mark;
+//     })
+
+//     let average = total / marks.length;
+
+//     // console.log("Name:", name);
+//     // console.log("Marks:", marks);
+//     // console.log("Total:", total);
+//     // console.log("Average:", average);
+//     return {
+//         name:name,
+//         marks:marks,
+//         total:total,
+//         average:average
+//     }
+// }
+// console.log(stud("Ashwin", 50, 67, 89));
+
+
+// // student("Ashwin", 50, 67, 89);
+

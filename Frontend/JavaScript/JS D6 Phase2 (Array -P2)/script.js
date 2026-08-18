@@ -5,13 +5,15 @@
 //     console.log('helo');
     
 // }
+// arr.forEach(run)
+// /////////////////////////////////////
 // var sum=0
 // arr.forEach(function(elem,index){
 //     sum=sum+elem
 //     console.log(elem,index); 
 // })
 // console.log(sum);
-//
+
 
 // var ary = ['ajay','bittu','choottu','dabbu']
 // var sum=0
@@ -19,8 +21,6 @@
 //     sum=sum+e.length
 //     console.log(e,i); 
 //     console.log(sum);
-     
-
 // })
 
 
@@ -28,45 +28,48 @@
 
 
 ///////////////////////// MAP ///////////////////
-// var arr = [10,20,30,40]
+var arr = [10,20,30,40]
 
 // function double(x){
 //     return x*2
 // }
-// var arr2= arr.map((x)=>{
-//     return x*x*x
-// })
-// console.log(arr2);
+// arr.map(double)
 
-//
 
-// var user=['ashwin','ashu','khushi','jamun']
-// var nuser=user.map(function(elem){
-//     return elem.substring(1,4)
-// })
-// console.log(nuser);
+var arr2= arr.map((x)=>{
+    return x*x*x
+})
+console.log(arr2);
 
-// var arr =[11,22,33,44]
-// var arr2=arr.map(function(elem){
-//     if(elem%2==0){
-//         return elem
-//     }else{
-//         return elem+1
-//     }
-// })
-// console.log(arr2);
+
+
+var user=['ashwin','ashu','khushi','jamun']
+var nuser=user.map(function(elem){
+    return elem.substring(1,4)
+})
+console.log(nuser);
+
+var arr =[11,22,33,44]
+var arr2=arr.map(function(elem){
+    if(elem%2==0){
+        return elem
+    }else{
+        return elem+1
+    }
+})
+console.log(arr2);
 
 //////////////////////// FIlter //////////////////
 // select,length same ho skti hai agr condition match krega toh
-// var arr = [5,-9,2,-4,33,8]
+// var arr = [5,9,2,4,33,8]
 
 // var arr2= arr.filter(function(elem){
-//     // console.log(elem);
+//     console.log(elem);
 //     return elem>0
     
 // })
 // console.log(arr2);
-// //
+//
 // var marks = [56,22,90,51,88,93,15]
 
 // var fmarks= marks.filter(function(elem){
@@ -91,15 +94,15 @@
 
 
 /////////////////////////. REDUCE /////////////////
-var arr = [10,20,30,40]
-var max = arr.reduce(function(acc,val){
-    // return acc+val;
-    if(val>acc){
-        return val
-    }
-    return acc
-})
-console.log(max);
+// var arr = [10,20,30,40]
+// var max = arr.reduce(function(acc,val){
+//     // return acc+val;
+//     if(val>acc){
+//         return val
+//     }
+//     return acc
+// })
+// console.log(max);
 
 // var arr = [10,20,30,40]
 
